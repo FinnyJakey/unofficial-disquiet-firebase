@@ -94,6 +94,15 @@
 
 ### Function
 
+package.json dependencies
+```
+"dependencies": {
+  "axios": "^1.6.2",
+  "firebase-admin": "^11.8.0",
+  "firebase-functions": "^4.3.1"
+},
+```
+
 ```
 getMakerLogsPeriodic() -> 30분 간격으로 New Maker Logs 파싱 및 DB 저장
 sendNewMakerLogNotification() -> 1시간 간격으로 새로운 메이커 로그 알림을 등록한 사람에게 push notification 전송
